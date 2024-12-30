@@ -55,6 +55,6 @@ cargo run
 - Input handling is done through the `input` function, which prompts the user and reads the input. The input is then parsed into integers using the `number_check` function, which ensures valid numerical input.
 - Error handling is included for division by zero, and invalid inputs are handled by asking the user to re-enter the values.
 
-### Contributing
+## Contributing
 
 Feel free to contribute to this project! If you find any bugs or want to suggest improvements, please create an issue or submit a pull request.
