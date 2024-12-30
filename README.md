@@ -50,9 +50,9 @@ cargo run
 
 ### Code Explanation
 
-- The program defines a Calculator struct with two fields: first_number and second_number, representing the numbers on which the operations will be performed.
-- The Calculator struct has methods for each operation (add, subtract, multiply, divide), which are implemented as part of the struct’s functionality.
-- Input handling is done through the input function, which prompts the user and reads the input. The input is then parsed into integers using the number_check function, which ensures valid numerical input.
+- The program defines a `Calculator` struct with two fields: `first_number` and `second_number`, representing the numbers on which the operations will be performed.
+- The `Calculator` struct has methods for each operation (`add`, `subtract`, `multiply`, `divide`), which are implemented as part of the struct’s functionality.
+- Input handling is done through the `input` function, which prompts the user and reads the input. The input is then parsed into integers using the `number_check` function, which ensures valid numerical input.
 - Error handling is included for division by zero, and invalid inputs are handled by asking the user to re-enter the values.
 
 ### Contributing
